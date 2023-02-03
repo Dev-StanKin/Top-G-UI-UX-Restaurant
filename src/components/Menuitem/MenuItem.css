@@ -1,0 +1,68 @@
+.app__menuitem {
+  width: 100%;
+  margin: 1rem 0;
+  flex-direction: column;
+  display: flex;
+}
+
+.app__menuitem-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__menuitem-sub {
+  margin-top: 0.2rem;
+  width: 100%;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+.app__menuitem-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+}
+
+.app__menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.app__specialMenu_menu_heading {
+  font-family: var(--font-base);
+
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 130%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.app__specialMenu_menu-cocktails,
+.app__specialMenu_menu-wines {
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+}
+
+.app__specialMenu-menu_img {
+  width: 410px;
+  margin: 0 2rem;
+}
+
+.app__specialMenu-menu_img img {
+  height: auto;
+  width: 100%;
+}
+
+.app__specialMenu_menu_items {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  width: 100%;
+}
